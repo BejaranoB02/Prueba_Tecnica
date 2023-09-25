@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div id="player" class="player"></div>
+    <div id="div-question" class="div-question">
+      <form name="questionForm">
+        <h2>Contesta la pregunta para continuar:</h2>
+        <h2>¿Qué se puede hacer con la programación?</h2>
+        <input type="radio" name="question" value="1" />
+        <label for="1">Páginas web, aplicacionaes y cualquier software</label>
+        <input type="radio" name="question" value="2" />
+        <label for="2">Platos de comida y productos de cocina</label>
+        <input type="radio" name="question" value="3" />
+        <label for="3">Maquinaria industrial y automóviles</label>
+      </form>
+      <button onclick="checkQuestion()">Enviar</button>
+      <p id="message"></p>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
